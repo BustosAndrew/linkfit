@@ -5,7 +5,7 @@ import mdx from "@astrojs/mdx";
 import sitemap from "@astrojs/sitemap";
 
 export default defineConfig({
-  site: "https://linkfit-six.vercel.app/",
+  site: "https://linkfit.net/",
   integrations: [
     tailwind(),
     image({
