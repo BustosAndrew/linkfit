@@ -1,7 +1,7 @@
 ---
 draft: false
 name: "Ricky"
-title: "Co-founder"
+title: "Founder"
 avatar:
   {
     src: "https://github.com/BustosAndrew/linkfit/blob/main/public/ricky.jpg?raw=true",
