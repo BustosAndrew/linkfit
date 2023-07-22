@@ -15,7 +15,7 @@ const resolvedImageWithDomain = new URL("/ogimg.jpg", Astro.site).toString();
 const { title } = Astro.props;
 
 const makeTitle = title
-  ? title + " | " + "Linkfit"
+  ? title + " | " + "LiNKFiiT"
   : "Astroship - Starter Template for Astro with Tailwind CSS";
 ---
 
@@ -30,17 +30,17 @@ const makeTitle = title
     <!-- <link rel="preload" as="image" href={src} alt="Hero" /> -->
     <SEO
       title={makeTitle}
-      description="Linkfit is an app for trainers to connect more easily with potential trainees."
+      description="LiNKFiiT is an app for trainers to connect more easily with potential trainees."
       canonical={canonicalURL}
       openGraph={{
         basic: {
           url: canonicalURL,
           type: "website",
-          title: `Linkfit - for trainers, by trainers.`,
+          title: `LiNKFiiT - for trainers, by trainers.`,
           image: resolvedImageWithDomain,
         },
         image: {
-          alt: "Screenshot of Linkfit website homepage.",
+          alt: "Screenshot of LiNKFiiT website homepage.",
         },
       }}
     />
